@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+}
+.header{
+ 	background-color: #0d2d62; 
+ }
+ .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 22px;
+    color: #fff;
+}
+.header p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header ul{
+    margin-top: 10px;
+}
+.navbar {
+    margin-top: 25px;
+    background: #a50200;
+}
+.active{
+        font-size: 18px;
+    font-weight: 500;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-image: none !important;
+}
+/*----------------- slider -----------------*/
+#hexagon {
+    width: 230px;
+    height: 120px;
+    background: #eeeeee;
+    position: relative;
+    margin: 10px auto;
+    top: -10px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    padding-top: 22px;
+}
+#hexagon:after {
+        content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    border-left: 117px solid transparent;
+    border-right: 115px solid transparent;
+    border-top: 45px solid #eeeeee;
+}
+#hexagon p{
+    margin-top: 12px;
+}
+#hexagon:hover{
+    background: #ff7200;
+    color: #fff;
+}
+#hexagon:hover:after{
+    border-top: 45px solid #ff7200;
+}
+/*--------------- about us -----------*/
+.who-we-are{
+    margin-top: 80px;
+}
+.who-we-are p{
+    margin-top: 20px;
+}
+
+.button1 {
+   width: 12vw;
+    height: 4vw;
+    position: absolute;
+    left: 7vw;
+    top: 47vh;
+    transform: translate(-50%, -80%);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.1em;
+    color: #e8e8e8;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: linear-gradient(45deg, #b0b0fc, #000071, #ffffff);
+    background-size: 300% 400%;
+    box-shadow: 1vw 1vw 0 #af0306;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button1:hover {
+  animation: gradient 10s ease infinite;
+  font-size: 1.05vw;
+  box-shadow: 0.2vw 0.2vw 0 lightcoral;
+}
+
+
+/* -------------- Nav Bar ---------------- */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: #0d2d62;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+}
+
+/*------------------- our work ----------------- */
+.our-work{
+    margin-top: 80px;
+}
+.our-work p{
+    margin-top: 20px;
+}
+
+/*----------- product slider ---------------*/
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  }
+ 
+ .carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+ .carousel-control.left {
+  left: 0;
+  right: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+#carousel-example-generic {
+    margin: 20px auto;
+    width: 100%;
+}
+
+#carousel-custom {
+    margin: 20px auto;
+    width: 400px;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    overflow:hidden;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+.carousel-indicators li img {
+  height: 66px;
+  width: 52px;}
+
+  /*------------------------ Product List ----------------- */
+  .product-Range{
+  background-image:url(images/footerbg.jpg);
+  padding: 30px;
+}
+.product-Range h2{
+      text-align: center;
+}
+.product-Range h3{
+  margin-top: 30px;
+}
+.box1{
+    margin: 24px;
+    border: 2px solid #125;
+    padding: le;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.brand-box{
+    padding: 65px;
+    text-align: center;
+    font-size: 11px;
+}
+.brand-box1{
+    padding: 65px;
+    text-align: center;
+    font-size: 11px;
+    background: #f7f7f7;
+}
+.brand-box p{
+  margin-top: 10px;
+}
+
+.brand-box1 p{
+  margin-top: 10px;
+}
+#navlist {
+    padding-left: 0px;
+    font-weight: normal;
+    list-style-position: inside;
+    font-size: 10pt;
+    margin-left: 0px;
+    width: 225px;
+    color: #af0306;
+    list-style-type: disc;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*   -------------- product list -----------------*/
+.map{
+     position: relative;
+}
+
+#google-map {
+    width  : 100%;
+    height : 200px;
+}
+#google-map-overlay {
+    width: 100%;
+    height: 200px;
+    background: #fc3616;
+    position: absolute;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+#google-map-overlay p{
+    text-align: center;
+    margin-top: 5em;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+/*----------------- start of footer----------*/
+
+.sub-footer img{
+    margin-top: 15px;
+}
+.sub-footer p{
+    margin-top: 10px;
+}
+.sub-footer ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.sub-footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-footer  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 22px;
+    color: #af0306;
+}
+
+.footer{
+    padding: 20px;
+    background: #af0306;
+    color: #fff;
+}
+.float-right{
+    float: right;
+}
+
+/*--------------- inquiry -----------------*/
+.inquiry_div {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+#text1 {
+    border: 1px solid #04266b;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 27px rgb(204, 204, 204) inset;
+    transition: 500ms all ease;
+    padding: 3px 3px 3px 3px;
+}
+.contactus1{
+        margin-top: 70px;
+}
+/*---------------contact Us ----------------*/
+#contactus .fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 22px;
+    color: #ef7f2d;
+}
+
+/*---------------About Us -----------------*/
+.aboutus{  padding: 50px;
+}  
+
+/*---------------- stock list ---------------*/
+.button {
+    padding: 15px 12px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0000d2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #af0306;
+}
+
+.button:hover {background-color: #4949ff;}
+
+.button:active {
+    background-color: #04047b;
+    box-shadow: 0 5px #cb0000;
+    transform: translateY(4px);
+}
+
+.pricelist1{
+    padding: 20px 12px;
+    font-size: 25px;
+    margin-top: 36px;
+    font-weight: 600;
+    border-left: 7px solid #af0306;
+}
+
+
+.dropbtn {
+   background-color: #ff7200;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    /* border: none; */
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/* ------------------ End of Stock List ---------------*/
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+}
+/*-------------------- End of table -----------------*/
+
+
+/* End of Table  */
+
+@media only screen and (max-width: 1199px) {
+   .nav>li>a {
+    
+    padding: 15px 15px;
+    font-size: 11px;
+    }
+    .logo{
+        margin-top: 12px;
+    }
+    #hexagon {
+    width: 160px;
+    height: 100px;
+    background: #eeeeee;
+    position: relative;
+    margin: 10px auto;
+    top: -10px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+    padding-top: 22px;
+    }
+    #hexagon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 45px solid #eeeeee;
+}
+
+}
+@media only screen and (max-width: 992px) {
+   .nav>li>a {
+    
+   padding: 15px 8px;
+    font-size: 9px;
+    }
+    .logo{
+        margin-top: 22px;
+    }
+    #hexagon {
+    width: 160px;
+    height: 100px;
+    background: #eeeeee;
+    position: relative;
+    margin: 52px auto;
+    top: -40px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+    padding-top: 22px;
+}
+.button1 {
+  
+    top: 34vh;
+}
+}
+
